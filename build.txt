@@ -1,0 +1,4 @@
+displayName = Extra Info
+author = -Cyril-
+version = 0.1.1
+side = Client

@@ -1,0 +1,169 @@
+Mods: {
+	MoreInfo: {
+		GenericInfoName: {
+			ChestNameDisplay:Chest Name Display
+			ChestNameYOffset:Chest Name Display Position Offset Y
+			ChestNameSize:Chest Name Display Scale
+			ChestSpaceDisplay:Chest Space Display
+
+			BiomeBasicInfo:Biomes
+			BiomeMixedInfo:Mixed Biome(s)
+			BiomeModdedInfo:Modded Biome(s)
+
+			TotalLuck:Luck
+			TorchLuck:Torch Luck
+			LadybugLuck:Ladybug Luck
+			PotionLuck:Potion Luck
+			GnomeNearby:Gnome Nearby
+			LanternsUp:Lantern Night
+		}
+		DebugInfoName: {
+			MousePositionWorld:Cursor Position (World)
+			MousePositionTile:Cursor Position (Tile)
+
+			PlayerChestIndex:Chest Index
+			PlayerPositionWorld:Player Position (World)
+			PlayerPositionTile:Player Position (Tile)
+			PlayerCenterWorld:Player Center (World)
+			PlayerCenterTile:Player Center (Tile)
+
+			ItemType:Item Type
+			ItemUseTime:Item Use Time
+			ItemAnimationTime:Item Animation Time
+			ItemKnockback:Item Knockback
+			ItemUseStyle:Item Use Style
+			ItemShoot:The Projectile It Shoots.
+			ItemShootSpeed:Item Shoot Speed
+			ItemSize:Item Size
+			ItemMaxStack:Maximum Stack Allowed
+			ItemMod:The Mod of the Item
+			ItemFullName:Item FullName
+			ItemTooltipNames:Internal Names of Each Tooltip Line
+			ItemTooltipMods:The Source of Each Tooltip Line
+			ItemFavouriteTooltip:Item Favourited Tooltip
+			ItemSocialTooltip:Item Social Tooltip
+
+			TileSolid:Tile Solid
+			TileSolidTop:Tile Solid Top
+			TileHalfBlock:Half Block
+			TileSlope:Tile Slope
+			TileFrameX:Tile Frame X
+			TileFrameY:Tile Frame Y
+			TileColor:Tile Color
+			TileIsActuated:Tile Is Actuated
+			TileActive:Tile Exists
+			TileType:Tile Type
+			TileModName:The Mod of the Tile
+			TileFullName:Tile FullName
+			TileMinPick:Minimum Pickaxe Power Required
+
+			WallType:Wall Type
+			WallColor:Wall Color
+			WallFrameNumber:Wall Frame Number
+			WallFrameX:Wall Frame X
+			WallFrameY:Wall Frame Y
+		}
+		Configs: {
+			Title: {
+				GenericConfiguration:Generic Info Configuration
+				DebugConfiguration:Debug Info Configuration
+			}
+			Header: {
+				ChestInfo:"[i:4712] [c/5fcde4:Chest Info Settings]"
+				BiomeInfo:"[i:521] [c/5fcde4:Biome Info Settings]"
+				LuckInfo:"[i:4479] [c/5fcde4:Luck Info Settings]"
+
+				MouseInfo:"[i:5075] [c/5fcde4:Cursor Info Settings]"
+				PlayerInfo:"[i:271] [c/5fcde4:Player Info Settings]"
+				ItemInfo:"[i:9] [c/5fcde4:Item Info Settings]"
+				TileInfo:"[i:3] [c/5fcde4:Tile Info Settings]"
+				WallInfo:"[i:26] [c/5fcde4:Wall Info Settings]"
+			}
+			Label: {
+				Generic: {
+					InfoVisible:Info Visible
+				}
+				Debug: {
+					WallInfoAlways:Always Show Wall Info
+					TileInfoAlways:Always Show Tile Info
+				}
+			}
+			Tooltip: {
+				Generic: {
+					InfoVisible:Toggle if infos are visible. You can set a keybind in controls setting.
+					
+					ChestNameDisplay:If it is "On", the name of renamed chest will be displayed. (The names may block each other if the chests are too close)
+					ChestNameYOffset:Modify the display position of chest names.
+					ChestNameSize:Modify the size of displayed chest names.
+					ChestSpaceDisplay:If it is "On", the used space and the total space of the chest will be displayed under the chest.
+
+					BiomeBasicInfo:The biomes the player at.
+					BiomeMixedInfo:The mixed biome(s) the player at.
+					BiomeModdedInfo:The modded biome(s) the player at.
+
+					TotalLuck:The total luck of the player.
+					TorchLuck:The luck from torches.
+					LadybugLuck:The luck from ladybugs.
+					PotionLuck:The luck from vanilla luck potions.
+					GnomeNearby:Show if there is a gnome nearby.
+					LanternsUp:Show if tonight is a lantern night.
+				}
+				Debug: {
+					MousePositionWorld:The world coordinates of mouse position.
+					MousePositionTile:The tile coordinates of mouse position.
+
+					PlayerChestIndex:The index of the chest the player opened. (The value of "Player.chest")
+					PlayerPositionWorld:The world coordinates of the player's position.
+					PlayerPositionTile:The tile coordinates of the player's position.
+					PlayerCenterWorld:The world coordinates of the player's center position.
+					PlayerCenterTile:The tile coordinates of the player's center position.
+
+					ItemType:The "Item.type" of the item.
+					ItemUseTime:The "Item.useTime" of the item.
+					ItemAnimationTime:The "Item.useAnimation" of the item.
+					ItemKnockback:The "Item.knockBack" of the item.
+					ItemUseStyle:The "Item.useStyle" of the item.
+					ItemShoot:The "Item.shoot" of the item.
+					ItemShootSpeed:The "Item.shootSpeed" of the item.
+					ItemSize:The "Item.Size" of the item.
+					ItemMaxStack:The "Item.maxStack" of the item.
+					ItemMod:The mod's internal name the item belongs to. (Displays only if the tile is from a mod.)
+					ItemFullName:The FullName of the item. (Displays only if the tile is from a mod.)
+					ItemTooltipNames:The internal name of each tooltip.
+					ItemTooltipMods:Shows which mod or vanilla added this line in the item tooltip.
+					ItemFavouriteTooltip:If it is "Off", the item does not display favourited texts when it is favourited.
+					ItemSocialTooltip:If it is "On", the item displays its original tooltip when it is equipped in social slot.
+
+					TileInfoAlways:If it is "Off", the tile info will be displayed only when there is a tile at the cursor position.
+					TileSolid:Show whether "Main.tileSolid" of the tile at the cursor position is True or False.
+					TileSolidTop:Show whether "Main.tileSolidTop" of the tile at the cursor position is True or False.
+					TileHalfBlock:Show whether "Tile.IsHalfBlock" of the tile at the cursor position is True or False.
+					TileSlope:The "Tile.Slope"  of the tile at the cursor position.
+					TileFrameX:The "Tile.frameX"  of the tile at the cursor position.
+					TileFrameY:The "Tile.frameY"  of the tile at the cursor position.
+					TileColor:The "Tile.color"  of the tile at the cursor position.
+					TileIsActuated:Show whether "Tile.IsActuated" of the tile at the cursor position is True or False.
+					TileActive:Show whether "Tile.IsActive" of the tile at the cursor position is True or False.
+					TileType:The "Tile.type"  of the tile at the cursor position.
+					TileModName:The mod's internal name the tile belongs to. (Displays only if the tile is from a mod.)
+					TileFullName:The FullName of the tile. (Displays only if the tile is from a mod.)
+					TileMinPick:The minimum pickaxe power needed to break the tile. (Displays only if the tile is from a mod.)
+					
+					WallInfoAlways:If it is "Off", the wall info will be displayed only when there is a wall at the cursor position.
+					WallType:The "Tile.wall"  of the tile at the cursor position.
+					WallColor:The "Tile.WallColor"  of the tile at the cursor position.
+					WallFrameNumber:The "Tile.WallFrameNumber"  of the tile at the cursor position.
+					WallFrameX:The "Tile.WallFrameX"  of the tile at the cursor position.
+					WallFrameY:The "Tile.WallFrameY"  of the tile at the cursor position.
+				}
+			}
+		}
+		Biome: {
+			Glowshroom:Glowing Mushroom
+		}
+		Minibiome:{
+			GemCave:Gemstone Cave
+		}
+		None:None
+	}
+}

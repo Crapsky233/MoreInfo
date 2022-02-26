@@ -1,0 +1,169 @@
+Mods: {
+	MoreInfo: {
+		GenericInfoName: {
+			ChestNameDisplay:在箱子处显示名称
+			ChestNameYOffset:箱子名称显示位置Y轴偏移量
+			ChestNameSize:箱子名称显示大小
+			ChestSpaceDisplay:显示箱子已用空间
+
+			BiomeBasicInfo:所处生态环境
+			BiomeMixedInfo:所处混合生态环境
+			BiomeModdedInfo:所处模组生态环境
+
+			TotalLuck:运气值
+			TorchLuck:火把运气
+			LadybugLuck:瓢虫运气
+			PotionLuck:药水运气
+			GnomeNearby:附近有无花园侏儒
+			LanternsUp:今夜是否是灯笼夜
+		}
+		DebugInfoName: {
+			MousePositionWorld:指针世界坐标
+			MousePositionTile:指针物块坐标
+
+			PlayerChestIndex:箱子索引
+			PlayerPositionWorld:玩家位置世界坐标
+			PlayerPositionTile:玩家位置物块坐标
+			PlayerCenterWorld:玩家中心世界坐标
+			PlayerCenterTile:玩家中心物块坐标
+
+			ItemType:物品ID
+			ItemUseTime:物品使用时间(useTime)
+			ItemAnimationTime:物品动画时间(useAnimation)
+			ItemKnockback:物品击退(knockBack)
+			ItemUseStyle:物品动画类型(useStyle)
+			ItemShoot:物品射弹ID(shoot)
+			ItemShootSpeed:物品射弹速度(shootSpeed)
+			ItemSize:物品尺寸(Size)
+			ItemMaxStack:物品最大堆叠(maxStack)
+			ItemMod:物品所属模组
+			ItemFullName:物品FullName
+			ItemTooltipNames:物品提示中每行的内部名
+			ItemTooltipMods:物品提示中每行的模组源
+			ItemFavouriteTooltip:显示收藏物品提示
+			ItemSocialTooltip:装备在时装栏时显示物品原有提示
+
+			TileSolid:物块是否实体(Solid)
+			TileSolidTop:物块顶部是否实体(SolidTop)
+			TileHalfBlock:物块是否半砖(HalfBlock)
+			TileSlope:物块斜坡类型(Slope)
+			TileFrameX:物块帧X坐标(TileFrameX)
+			TileFrameY:物块帧Y坐标(TileFrameY)
+			TileColor:物块颜色代号(TileColor)
+			TileIsActuated:物块是否被虚化(IsActuated)
+			TileActive:物块是否存在(HasTile)
+			TileType:物块ID(TileType)
+			TileModName:物块所属模组
+			TileFullName:物块FullName
+			TileMinPick:物块最小镐力需求
+
+			WallType:背景墙ID(WallType)
+			WallColor:背景墙颜色代号(WallColor)
+			WallFrameNumber:背景墙帧编号(WallFrameNumber)
+			WallFrameX:背景墙帧X坐标(WallFrameX)
+			WallFrameY:背景墙帧Y坐标(WallFrameY)
+		}
+		Configs: {
+			Title: {
+				GenericConfiguration:普通信息配置面板
+				DebugConfiguration:调试信息配置面板
+			}
+			Header: {
+				ChestInfo:"[i:4712] [c/5fcde4:宝箱信息设置]"
+				BiomeInfo:"[i:521] [c/5fcde4:环境信息设置]"
+				LuckInfo:"[i:4479] [c/5fcde4:运气信息设置]"
+
+				MouseInfo:"[i:5075] [c/5fcde4:鼠标信息设置]"
+				PlayerInfo:"[i:271] [c/5fcde4:玩家信息设置]"
+				ItemInfo:"[i:9] [c/5fcde4:物品信息设置]"
+				TileInfo:"[i:3] [c/5fcde4:物块信息设置]"
+				WallInfo:"[i:26] [c/5fcde4:背景墙信息设置]"
+			}
+			Label: {
+				Generic: {
+					InfoVisible:显示信息
+				}
+				Debug: {
+					TileInfoAlways:总是显示物块信息
+					WallInfoAlways:总是显示背景墙信息
+				}
+			}
+			Tooltip: {
+				Generic: {
+					InfoVisible:开关信息显示. 可在控件中绑定快捷键.
+					
+					ChestNameDisplay:如果为“开”，则箱子处会显示重命名后的名称. (可能由于箱子过密而相互遮挡)
+					ChestNameYOffset:修改箱子名称显示的位置
+					ChestNameSize:修改箱子名称显示的大小
+					ChestSpaceDisplay:如果为“开”，则显示箱子已用空间与总空间.
+
+					BiomeBasicInfo:显示玩家所处的生态环境.
+					BiomeMixedInfo:显示玩家所处的混合生态.
+					BiomeModdedInfo:显示玩家所处的模组环境.
+
+					TotalLuck:玩家的总幸运值.
+					TorchLuck:玩家总幸运值中来自火把的部分.
+					LadybugLuck:玩家总幸运值中来自蚜虫/瓢虫的部分.
+					PotionLuck:玩家总幸运值中来自原版幸运药水的部分.
+					GnomeNearby:显示附近是否存在花园侏儒.
+					LanternsUp:显示今夜是否是灯笼夜.
+				}
+				Debug: {
+					MousePositionWorld:显示鼠标指针位置的世界坐标.
+					MousePositionTile:显示鼠标指针位置的物块坐标.
+
+					PlayerChestIndex:显示玩家所开启的箱子的索引，即"Player.chest"的值.
+					PlayerPositionWorld:显示玩家位置(左上角)的世界坐标.
+					PlayerPositionTile:显示玩家位置(左上角)的物块坐标.
+					PlayerCenterWorld:显示玩家中心位置的世界坐标.
+					PlayerCenterTile:显示玩家中心位置的物块坐标.
+
+					ItemType:显示物品的"Item.type"的值.
+					ItemUseTime:显示物品的"Item.useTime"的值.
+					ItemAnimationTime:显示物品的"Item.useAnimation"的值.
+					ItemKnockback:显示物品的"Item.knockBack"的值.
+					ItemUseStyle:显示物品的"Item.useStyle"的值.
+					ItemShoot:显示物品的"Item.shoot"的值.
+					ItemShootSpeed:显示物品的"Item.shootSpeed"的值.
+					ItemSize:显示物品的"Item.Size"的值.
+					ItemMaxStack:显示物品的"Item.maxStack"的值.
+					ItemMod:显示物品所属模组的内部名(仅当物品不是原版物品时显示).
+					ItemFullName:显示物品的FullName(仅当物品不是原版物品时显示).
+					ItemTooltipNames:显示物品工具提示中每行的内部名.
+					ItemTooltipMods:显示物品工具提示中每行是由哪个模组或原版添加的.
+					ItemFavouriteTooltip:如果为“关”，则物品被收藏时在工具提示不显示收藏文本.
+					ItemSocialTooltip:如果为“开”，则物品装备在时装栏时显示物品原有工具提示.
+
+					TileInfoAlways:如果为“关”，则只有光标所处位置存在物块时会显示物块信息.
+					TileSolid:显示光标上的物块的"Main.tileSolid"为True还是False.
+					TileSolidTop:显示光标上的物块的"Main.tileSolidTop"为True还是False.
+					TileHalfBlock:显示光标上的物块的"Tile.IsHalfBlock"为True还是False.
+					TileSlope:显示光标上的物块的"Tile.Slope"的值.
+					TileFrameX:显示光标上的物块的"Tile.frameX"的值.
+					TileFrameY:显示光标上的物块的"Tile.frameY"的值.
+					TileColor:显示光标上的物块的"Tile.color"的值.
+					TileIsActuated:显示光标上的物块的"Tile.IsActuated"为True还是False.
+					TileActive:显示光标上的物块的"Tile.IsActive"为True还是False.
+					TileType:显示光标上的物块的"Tile.type"的值.
+					TileModName:显示光标上的物块所属模组的内部名(仅当物块不是原版物块时显示).
+					TileFullName:显示光标上的物块的FullName(仅当物块不是原版物块时显示).
+					TileMinPick:显示光标上的物块的最小镐力需求(仅当物块不是原版物块时显示).
+					
+					WallInfoAlways:如果为“关”，则只有光标所处位置存在背景墙时会显示背景墙信息。
+					WallType:显示光标上的物块的"Tile.wall"的值.
+					WallColor:显示光标上的物块的"Tile.WallColor"的值.
+					WallFrameNumber:显示光标上的物块的"Tile.WallFrameNumber"的值.
+					WallFrameX:显示光标上的物块的"Tile.WallFrameX"的值.
+					WallFrameY:显示光标上的物块的"Tile.WallFrameY"的值.
+				}
+			}
+		}
+		Biome: {
+			Glowshroom:发光蘑菇
+		}
+		Minibiome:{
+			GemCave:宝石洞
+		}
+		None:无
+	}
+}

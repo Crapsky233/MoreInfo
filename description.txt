@@ -1,0 +1,33 @@
+﻿This mod can display a lot of info in the game, all info display can be turned On/Off in Mod Configuration.
+Whether you are a player or a modder, there is always something for this mod to help you.
+The mod is client-only, which means you can use it in a server and the server does not need to enable this mod.
+The functions of this mod include but are not limited to:
+
+Display chest name and capacity - to make your sorting more convenient. (TODO: supporting Magic Storage Mod)
+Display Player Luck - control over Luck system. (It does CONFLICT with Max Luck Mod since that Mod Hooked Player.RollLuck to "modify luck".)
+Display the biome you are in (support modding environment) - help you build facilities such as monster farms better.
+Turn off favourited item tooltip - because why the heck not?
+Accessories in vanity slot display tooltips as usual - view accessories' tooltips conveniently.
+Display mouse pointer/player coordinates - easier to debug mods
+Display various info about items/walls/tiles - easier to debug mods
+
+If you have good suggestions for this mod, such as adding information you want or improving displayments, you can leave a comment on the mod's Steam Workshop page.
+(My English is bad. So if you have a better translation of the info, you can also comment to me.)
+
+The below is the Chinese version of mod description.
+以上是模组简介的英文翻译
+
+这个模组可以显示游戏中的诸多信息，一切信息显示可在模组配置面板中开启或关闭.
+无论你是玩家或是模组制作者，这个模组总有能帮到你的地方.
+本模组是客户端模组，也就是说你可以在服务器中使用它，且不需要在服务端启动该模组.
+本模组功能包括但不限于:
+
+外显箱子名称及容量 - 使你的分类更加便捷.(计划支持Magic Storage即魔法储存模组)
+显示玩家幸运值 - 更好地把控幸运值系统.(与Max Luck Mod不相容，因为那个Mod是通过修改Player.RollLuck来“调整运气值”的。)
+显示所处环境(支持模组环境) - 帮助你更好地建造刷怪场等设施.
+关闭收藏物品提示 - 物品提示界面更加清爽.
+时装栏饰品正常显示提示 - 不用卸下来就能看到时装栏物品提示.
+显示鼠标指针/玩家坐标 - 调试模组更加轻松.
+显示物品/背景墙/物块的各种信息 - 方便调试模组.
+
+如果你对这个模组有好的建议，例如添加你想要的信息或改善某个显示效果，可以在Steam中该模组的创意工坊处留下评论.
